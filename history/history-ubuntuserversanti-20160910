@@ -1,0 +1,41 @@
+    1  mkdir LXS2_santiago
+    2  cd LXS2_santiago
+    3  mkdir history
+    4  vim.gitignore
+    5  vim .gitignore
+    6  wim .gitignore
+    7  vim .gitignore
+    8  ls -a
+    9  mkdir src
+   10  mkdir misc
+   11  tree
+   12  apt-get install tree
+   13  sudo apt-get install tree
+   14  tree
+   15  touch history/file
+   16  touch misc/file
+   17  touch src/file
+   18  tree
+   19  git init
+   20  ls -la
+   21  git config --global user.santiago
+   22  git config --global user.santi.flores.prado@gmail.com
+   23  git config --gobal user.name "Santiago Flores"
+   24  git config --global user.name "santiago flores"
+   25  git config --global user.email santi.flores.prado@gmail.com
+   26  cat ../.gitconfig
+   27  ls -la
+   28  git status
+   29  git add.gitignore
+   30  git add .gitignore
+   31  git status
+   32  touch misc/file2
+   33  tree
+   34  git status
+   35  git add misc/
+   36  git add src/
+   37  git add history/
+   38  git status
+   39  git commit -m "inicio del arbol de desarrollo"
+   40  git log
+   41  history > history/history-$HOSTNAME-`date +%Y%m%d`
