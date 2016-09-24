@@ -1,0 +1,140 @@
+    1  fdisk -l
+    2  f disk /dev/sda
+    3  fdisk /dev/sda
+    4  fdisk -l
+    5  pvdisplay
+    6  apt-get install lvm2
+    7  fdisk -l
+    8  pvdisplay
+    9  pvdcreate
+   10  pvcreate /dev/sda7
+   11  pvcreate /dev/sda8
+   12  pvcreate /dev/sda9
+   13  cat /prog/cpuinfo
+   14  cat /prog/ cpuinfo
+   15  cat /proc/cpuinfo
+   16  netstat
+   17  netstat -tuanp
+   18  sudo fdisk -l
+   19  sudo mount /dev/sda9 /mnt
+   20  ls
+   21  clear
+   22  sudo adduser user1
+   23  id user1
+   24  sudo usermod -a -G sudo user1
+   25  id user1
+   26  id
+   27  sudo apt-get install git
+   28  ls
+   29  git clone https://github.com/emvarg/LXS2_emanuel.git
+   30  apt-get install  openssh-server
+   31  sudo apt-get install opensshe-server
+   32  sudo apt-get install openssh-server
+   33  git clone https://github.com/emvarg/LXS2_emmanuel.git
+   34  touch Music/song.mpt
+   35  ls Music/
+   36  ls Music/ algo
+   37  ls Music/ algo > otro 2> error
+   38  cat error
+   39  cat otro
+   40  cat error
+   41  ls Music/ scripts > otro 2> error
+   42  cat error
+   43  ls
+   44  cat error
+   45  ls -l
+   46  file error
+   47  cat error
+   48  ls Music/ scripts > otro 2>> error
+   49  cat error
+   50  cat otro
+   51  ls -lh Music/ scripts >> otro 2>> error
+   52  cat otro
+   53  ls
+   54  ls -l
+   55  ls -lh
+   56  ls -lh Music/  scripts >> otro 2>> error
+   57  cat otro
+   58  git clone https://github.com/emvarg/LXS2_emmanuel.git
+   59  git status
+   60  ls
+   61  cd LSX2_emmanuel
+   62  git add dhcp.conf
+   63  CD LXS2_emmanuel
+   64  cd LXS2_emmanuel
+   65  git status
+   66  git pull origin master
+   67  ls
+   68  cd misc
+   69  ls
+   70  cd.. 
+   71  cd ..
+   72  ls
+   73  git clone https://github.com/sflores0885/LXS2_santiago.git
+   74  ls
+   75  cd LXS2_santiago/
+   76  ls
+   77  cd ..
+   78  echo "# LXS2_santiago" >> README.md
+   79  git init
+   80  git add README.md
+   81  git commit -m "first commit"
+   82  cd LXS2_santiago
+   83  mkdir history
+   84  mkdir misc
+   85  mkdir src
+   86  cd ..
+   87  rm LXS2_santiago
+   88  cd LXS2_emmanuel/misc/dhcpd.conf LXS2_santiago
+   89  cp LXS2_emmanuel/misc/dhcpd.conf LXS2_santiago
+   90  cd LXS2_santiago
+   91  ls
+   92  mv dhcpd.conf misc
+   93  ls
+   94  cd misc
+   95  ls
+   96  mkdir clase3
+   97  cd clase3
+   98  cat dhcdp.conf | grep -v "#"
+   99  ls
+  100  cd ..
+  101  ls
+  102  mv dhcpd.conf
+  103  mv dhcpd.conf clase3
+  104  cd clase3
+  105  cat dhcpd.conf | grep -v "#"
+  106  cat dhcpd.conf | grep -v "#" | grep "fixed" | q
+  107  cat dhcpd.conf | grep -v "#" | grep "fixed" 
+  108  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10."
+  109* 
+  110* cat dhcpd.conf | grep -v "#" |  
+  111  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk -F" " '{print $4}' | sort > red-azul
+  112  ls
+  113  git status
+  114  git add misc
+  115  pwd
+  116  cd ..
+  117  git status
+  118  git add misc
+  119  git status
+  120  git commit -m "practica clase 3"
+  121  git config --global user.email "santi.flores.prado@gmail.com"
+  122  git config --global user.name "Santiago Flores P"
+  123  git commit -m "practica clase 3"
+  124  git push
+  125  ls
+  126  cd misc
+  127  ls
+  128  cd ..
+  129  clone git https://github.com/sflores0885/LSX2_santiago
+  130  ls
+  131  rm -r LXS2_santiago
+  132  ip -4 addr
+  133  pwd
+  134  ls
+  135  git clone https://github.com/sflores0885/LSX2_santiago
+  136  history > history/history-$HOSTNAME-`date +%Y%m%d`
+  137  cd LXS2_santiago
+  138  ls
+  139  cd LSX2_santiago
+  140  history > history/history-$HOSTNAME-`date +%Y%m%d`
